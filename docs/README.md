@@ -3,8 +3,7 @@ A Swift based ARKit plugin to recognize real-world objects and implement Occlusi
 
 Occlusion is defined as the practice of hiding virtual objects behind real-world objects. Currently (as of Jul 2019) iOS ARKit2 and ARKit3 does not have this functionality.
 
-[!Plugin In-Action](https://www.youtube.com/watch?v=Coz21NN_kms&t=4s)
-# Video Here
+https://www.youtube.com/watch?v=Coz21NN_kms&t=4s
 
 ## Why is Occlusion implementation difficult?
 To hide virtual objects we first have to identify and capture the real-world objects, get their coordinates and orientation with regards to the 3D World Origin, and the put our virtual objects behind them.
