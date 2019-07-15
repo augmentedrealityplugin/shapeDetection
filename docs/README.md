@@ -1,7 +1,7 @@
 # Augmented Reality Plugin
 A Swift based ARKit plugin to recognize real-world objects (Occlusion) of **Anyshape, Anywhere, and of Anysize.**
 
-Github Rep Link: https://github.com/augmentedrealityplugin/shapeDetection
+[Github Repo Link](https://github.com/augmentedrealityplugin/shapeDetection)
 
 Occlusion is defined as the practice of hiding virtual objects behind real-world objects. Currently (as of Jul 2019) iOS ARKit2 and ARKit3 does not have this functionality.
 
