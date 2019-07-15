@@ -17,7 +17,7 @@ How does this plugin help?
 
 How to use this plugin?
 
-The plugin is essentially just a piece of code which when called runs the ARKit for Swift and places 3 buttons on the screen. 'Start Tapping' button is pressed when you want the begin selection the corners/point of the object; 'Stop Tapping' to finish selection; Finally 'Show Playing Area' to give/show the shape selected.
+The plugin when called loads its own ARKit for Swift initializes its methods. 
 1. Place the ARKit on your view controller and stretch it to cover the entire screen.
 2. Name the SRKit Scene View in your ViewController.swift (or Game Controller.swift) file as an @IBOutlet ARSCView.
 3. Place three buttons, 1 each for start tapping, stop tapping, and show playing area. Name the button similar to the ones 		in the plugin/code.
