@@ -1,4 +1,4 @@
-# Augmented-Reality-Plugin
+# Augmented Reality Plugin
 A Swift based ARKit plugin to recognize real-world objects using feature points and implement Occlusion.
 
 Occlusion is defined as the practice of hiding virtual objects behind real-world objects. Currently (as of Jul 2019) iOS ARKit2 and ARKit3 does not have this functionality.
