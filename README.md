@@ -9,9 +9,9 @@ To hide virtual objects we first have to identify and capture the real-world wor
 <insert a pic>
 
 ## How does this plugin help?
-1. Takes the feature points from the object, and when you click them the point is selected. This point acts as a vertex/node 	of the polygonal shape you want to make.
+1. Takes the feature points from the object, and when you click them the point is selected. This point acts as a vertex/node of the polygonal shape you want to make.
 2. Keep selecting points to get a good shape approximation of the object.
-3. Once you have selected all the points, you can view the selected area. What the plugin does is save this objects' 			coordinates and orientation with respect to the 3D World Origin made by the ARKit. It further gives you the centroid of 	the so called object and you can place virtual objects w.r.t to this centroid. 
+3. Once you have selected all the points, you can view the selected area. What the plugin does is save this objects' coordinates and orientation with respect to the 3D World Origin made by the ARKit. It further gives you the centroid of the so called object and you can place virtual objects w.r.t to this centroid. 
 
 <insert a pic>
 
@@ -20,7 +20,7 @@ To hide virtual objects we first have to identify and capture the real-world wor
 The plugin when called loads its own ARKit for Swift initializes its methods. 
 1. Place the ARKit on your view controller and stretch it to cover the entire screen.
 2. Name the SRKit Scene View in your ViewController.swift (or Game Controller.swift) file as an @IBOutlet ARSCView.
-3. Place three buttons, 1 each for start tapping, stop tapping, and show playing area. Name the button similar to the ones 		in the plugin/code.
+3. Place three buttons, 1 each for start tapping, stop tapping, and show playing area. Name the button similar to the ones in the plugin/code.
 4. Copy paste the code or call the plugin and run app.
 
 <insert a pic>
