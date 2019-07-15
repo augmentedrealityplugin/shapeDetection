@@ -27,7 +27,7 @@ To hide virtual objects we first have to identify and capture the real-world obj
 4. The orientation of objects can be anything, it is not limited to similar plane objects
 5. Can select objects while moving
 
-<insert a montage>
+
 ## How to import this plugin into your project?
 1. Clone the Shape detection plugin repo from Github.
 2. In your project setting scroll down to Embedded Binaries -> Click on "+" -> Click on Add Other -> Select shapedetection.framework from the cloned repo and click open.
@@ -39,7 +39,7 @@ The plugin provides 3 methods.
 2. plotShape(ARSCNView): After you are done tapping and recording points pass the current sceneview to this method to plot an approximated shape of the object you scanned.
 3. getObjectInfo(): Return the vertices scanned, centroid, eulerangles, and orientation w.r.t PoV.
 
- Refer to the Example section which has demos showing the implementation of the plugin to create a game and a basic implementation of the plugin showing how the methods should be called.
+Refer to the Example section which has demos showing the implementation of the plugin to create a game and a basic implementation of the plugin showing how the methods should be called.
 
 
 ---
