@@ -41,5 +41,6 @@ The plugin when called loads its own ARKit for Swift initializes its methods.
 
 <insert a montage>
 
+---
 ### Conditions:
 The plugin works on using feature points, so in dim lighting or against same color background as the object the points may not be immediately visible and may hinder detection. There are certain workarounds that can help tackle this in minor ways like placing a finger on the object to give contrast and get features, as well as using flashlight of the phone in dark.
