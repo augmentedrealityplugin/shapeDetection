@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OVa-gh-xOO">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nasty_Pumpkins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ld6-ay-OVz">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E9u-MC-E0a">
+                                <rect key="frame" x="195" y="436" width="24" height="24"/>
+                                <state key="normal" image="plus"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EJc-9S-cCU">
+                                <rect key="frame" x="125.5" y="831" width="163" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <state key="normal" title="  Place Pumpkins  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addTargets:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2kL-CE-P1M"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N8N-aU-uIk">
+                                <rect key="frame" x="20" y="826" width="50" height="50"/>
+                                <state key="normal" image="backArrow"/>
+                                <connections>
+                                    <action selector="backButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBv-QJ-7R1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lQk-Le-ebb">
+                                <rect key="frame" x="344" y="826" width="50" height="50"/>
+                                <state key="normal" image="3D"/>
+                                <connections>
+                                    <action selector="orientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4SK-zG-b4P"/>
+                                </connections>
+                            </button>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="egq-Xp-LX2">
+                                <rect key="frame" x="45" y="94" width="324" height="2"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Gsc-Y3-TKI"/>
+                                </constraints>
+                                <color key="progressTintColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4vK-J7-w5S">
+                                <rect key="frame" x="148" y="142" width="124" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                <state key="normal" title="  Start Game  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="3"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="startGame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ljH-tN-dcf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpZ-Yg-X2U">
+                                <rect key="frame" x="98.5" y="420.5" width="217" height="55"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="36"/>
+                                <state key="normal" title="  Game Over  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="gameOverPopup:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jbc-s0-pEO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Um3-Um-Z3y">
+                                <rect key="frame" x="90" y="753" width="234" height="35"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
+                                <state key="normal" title="  Show Playing Area  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="onShowAllModelledObjectsClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EoT-C3-E6t"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Um3-Um-Z3y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="144" id="0Bz-Ew-ZEA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Um3-Um-Z3y" secondAttribute="trailing" constant="143" id="0ft-bW-qGD"/>
+                            <constraint firstItem="Um3-Um-Z3y" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="1pj-OT-2RH"/>
+                            <constraint firstItem="N8N-aU-uIk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="2eB-cu-goT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lQk-Le-ebb" secondAttribute="trailing" constant="20" id="5bh-qR-afe"/>
+                            <constraint firstAttribute="bottom" secondItem="N8N-aU-uIk" secondAttribute="bottom" constant="20" id="8zm-Go-xq6"/>
+                            <constraint firstItem="QpZ-Yg-X2U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="95j-MB-xj2"/>
+                            <constraint firstItem="egq-Xp-LX2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="9Kh-Va-J2E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="egq-Xp-LX2" secondAttribute="trailing" constant="45" id="FEf-At-ORQ"/>
+                            <constraint firstItem="ld6-ay-OVz" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="GL5-gs-3BU"/>
+                            <constraint firstItem="Um3-Um-Z3y" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="HLM-xD-X8q"/>
+                            <constraint firstItem="E9u-MC-E0a" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IPu-ls-IU8"/>
+                            <constraint firstItem="egq-Xp-LX2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="MeB-CQ-c8w"/>
+                            <constraint firstItem="ld6-ay-OVz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NpP-qX-1x6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Um3-Um-Z3y" secondAttribute="trailing" constant="90" id="Rn1-Mu-aB2"/>
+                            <constraint firstItem="ld6-ay-OVz" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="W14-48-jfr"/>
+                            <constraint firstItem="E9u-MC-E0a" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ync-RO-O40"/>
+                            <constraint firstItem="Um3-Um-Z3y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZTz-10-1eR"/>
+                            <constraint firstAttribute="bottom" secondItem="lQk-Le-ebb" secondAttribute="bottom" constant="20" id="hWT-eF-lGp"/>
+                            <constraint firstItem="EJc-9S-cCU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pzf-ZU-cYh"/>
+                            <constraint firstItem="QpZ-Yg-X2U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rRG-CI-qSb"/>
+                            <constraint firstAttribute="bottom" secondItem="ld6-ay-OVz" secondAttribute="bottom" id="tQq-ly-ijM"/>
+                            <constraint firstAttribute="bottom" secondItem="EJc-9S-cCU" secondAttribute="bottom" constant="30" id="uBc-XG-gh3"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="gameOverLabel" destination="QpZ-Yg-X2U" id="13g-kC-CAG"/>
+                        <outlet property="homeButton" destination="N8N-aU-uIk" id="gKx-yz-gPc"/>
+                        <outlet property="label" destination="EJc-9S-cCU" id="31d-u1-W1q"/>
+                        <outlet property="sceneView" destination="ld6-ay-OVz" id="NRE-9e-FVF"/>
+                        <outlet property="showAllModelledObjButton" destination="Um3-Um-Z3y" id="KhK-cB-8H8"/>
+                        <outlet property="startgame" destination="4vK-J7-w5S" id="9ed-Cd-lTb"/>
+                        <outlet property="target" destination="E9u-MC-E0a" id="cDk-Hy-kmF"/>
+                        <outlet property="timeLeft" destination="egq-Xp-LX2" id="iHy-bg-Nks"/>
+                        <outlet property="view3d" destination="lQk-Le-ebb" id="osq-d1-AaS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="924.63768115942037" y="154.6875"/>
+        </scene>
+        <!--Menu Page-->
+        <scene sceneID="AKD-Ef-5Jl">
+            <objects>
+                <viewController id="OVa-gh-xOO" customClass="menuPage" customModule="Nasty_Pumpkins" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZaJ-on-wHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Rw-0j-dLs">
+                                <rect key="frame" x="153" y="419" width="108" height="58"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="38"/>
+                                <state key="normal" title="  Play  ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="4"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                        <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="playButton:" destination="OVa-gh-xOO" eventType="touchUpInside" id="JbP-Ea-lbt"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2019 CSCI 561.  All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csC-uu-Uxk">
+                                <rect key="frame" x="94.5" y="781" width="225" height="41"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="csC-uu-Uxk" firstAttribute="centerX" secondItem="ZaJ-on-wHQ" secondAttribute="centerX" id="Lqk-73-aUx"/>
+                            <constraint firstItem="3Rw-0j-dLs" firstAttribute="centerY" secondItem="ZaJ-on-wHQ" secondAttribute="centerY" id="PXV-pA-0vQ"/>
+                            <constraint firstItem="lvN-8Z-0B5" firstAttribute="bottom" secondItem="csC-uu-Uxk" secondAttribute="bottom" constant="40" id="Tk4-Ks-AOE"/>
+                            <constraint firstItem="csC-uu-Uxk" firstAttribute="centerX" secondItem="ZaJ-on-wHQ" secondAttribute="centerX" id="Y6F-vn-05L"/>
+                            <constraint firstItem="3Rw-0j-dLs" firstAttribute="centerX" secondItem="ZaJ-on-wHQ" secondAttribute="centerX" id="ibX-a6-q1z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="lvN-8Z-0B5"/>
+                    </view>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" identifier="movetogame" id="POa-w4-oUk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iyc-7d-gcW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108.69565217391305" y="155.35714285714286"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="3D" width="50" height="50"/>
+        <image name="backArrow" width="50" height="50"/>
+        <image name="plus" width="24" height="24"/>
+    </resources>
+</document>
