@@ -3,19 +3,19 @@ A Swift based ARKit plugin to recognize real-world objects using feature points 
 
 Occlusion is defined as the practice of hiding virtual objects behind real-world objects. Currently (as of Jul 2019) iOS ARKit2 and ARKit3 does not have this functionality.
 
-Why is Occlusion implementation difficult?
+# H1 Why is Occlusion implementation difficult?
 To hide virtual objects we first have to identify and capture the real-world world objects, get their coordinates and orientation with regards to the 3D World Origin, and the put our virtual objects behind them.
 
 <insert a pic>
 
-How does this plugin help?
+# H1 How does this plugin help?
 1. Takes the feature points from the object, and when you click them the point is selected. This point acts as a vertex/node 	of the polygonal shape you want to make.
 2. Keep selecting points to get a good shape approximation of the object.
 3. Once you have selected all the points, you can view the selected area. What the plugin does is save this objects' 			coordinates and orientation with respect to the 3D World Origin made by the ARKit. It further gives you the centroid of 	the so called object and you can place virtual objects w.r.t to this centroid. 
 
 <insert a pic>
 
-How to use this plugin?
+# H1 How to use this plugin?
 
 The plugin when called loads its own ARKit for Swift initializes its methods. 
 1. Place the ARKit on your view controller and stretch it to cover the entire screen.
@@ -25,7 +25,7 @@ The plugin when called loads its own ARKit for Swift initializes its methods.
 
 <insert a pic>
 
-Who should use this plugin?
+# H1 Who should use this plugin?
 1. Need Object/Shape detection in ARKit.
 2. If you require coordinates and orientation of real-world objects for your AR game/app.
 3. If you want to hide virtual objects behind real-world.
