@@ -26,7 +26,6 @@ To hide virtual objects we first have to identify and capture the real-world obj
 4. The orientation of objects can be anything, it is not limited to similar plane objects
 5. Can select objects while moving
 
-<insert a montage>
 ## How to import this plugin into your project?
 1. Clone the Shape detection plugin repo from Github.
 2. In your project setting scroll down to Embedded Binaries -> Click on "+" -> Click on Add Other -> Select shapedetection.framework from the cloned repo and click open.
