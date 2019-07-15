@@ -9,7 +9,7 @@ To hide virtual objects we first have to identify and capture the real-world wor
 <insert a pic>
 
 How does this plugin help?
-1. Takes the feature points from the object, and when you click them the pint is selected. This point acts as a vertex/node 	of the polygonal shape you want to make.
+1. Takes the feature points from the object, and when you click them the point is selected. This point acts as a vertex/node 	of the polygonal shape you want to make.
 2. Keep selecting points to get a good shape approximation of the object.
 3. Once you have selected all the points, you can view the selected area. What the plugin does is save this objects' 			coordinates and orientation with respect to the 3D World Origin made by the ARKit. It further gives you the centroid of 	the so called object and you can place virtual objects w.r.t to this centroid. 
 
