@@ -26,9 +26,9 @@ The plugin when called loads its own ARKit for Swift initializes its methods.
 <insert a pic>
 
 Who should use this plugin?
-1. If you want to hide virtual objects behind real-world.
-2. Need Object/Shape detection in ARKit.
-3. If you require coordinates and orientation of real-world objects for your AR game/app.
+1. Need Object/Shape detection in ARKit.
+2. If you require coordinates and orientation of real-world objects for your AR game/app.
+3. If you want to hide virtual objects behind real-world.
 
 <insert a montage>
 
