@@ -1,0 +1,11 @@
+framework module ShapeDetection {
+  umbrella header "ShapeDetection.h"
+
+  export *
+  module * { export * }
+}
+
+module ShapeDetection.Swift {
+    header "ShapeDetection-Swift.h"
+    requires objc
+}
