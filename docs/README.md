@@ -43,6 +43,8 @@ The plugin provides 3 methods.
 
 Refer to the Example section which has demos showing the implementation of the plugin to create a game and a basic implementation of the plugin showing how the methods should be called.
 
+#### A fun [side project](https://github.com/augmentedrealityplugin/shapeDetection/tree/master/Example/Arach%20Attack%20-%20Large%20Scale%20Object) we did using the Plugin:
+Giant war-of-the-worlds-esque spiders coming from behind buildings - 
 
 ---
 ### Conditions:
